@@ -7,7 +7,7 @@
 int main(int argc, char **argv)
 {
     int stats = (argc > 1 && strcmp(argv[1], "--stats") == 0);
-    const char *path = (argc > 1 && !stats) ? argv[1] : "cube.csv";
+    const char *path = (argc > 1 && !stats) ? argv[1] : "state.csv";
 
     Cube cube = cube_solved();
     if (!stats)
