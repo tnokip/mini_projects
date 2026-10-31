@@ -1,3 +1,4 @@
 2x2_solver/file
 2x2_solver/*.o
+2x2_solver/*.csv
 2x2_solver/solver
